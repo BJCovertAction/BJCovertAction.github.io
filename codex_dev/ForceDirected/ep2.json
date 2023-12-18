@@ -1,0 +1,55 @@
+    var json = [  
+      {
+        "id": "flow",   
+        "name": "Flow",
+        "adjacencies": [
+          {  
+            "nodeTo": "metaphor_and_brain",   
+            "nodeFrom": "flow",   
+            "data": {}  
+          }   
+        ],   
+        "data": {  
+          "$color": "#EBB056",   
+          "$type": "star",
+          "description": "Flow state was used by Shamans to develop deep metaphors to give evolutionary advantages."        
+        }
+      },   
+      {
+        "id": "metaphor_and_brain",   
+        "name": "Metaphor and the Brain",  
+        "adjacencies": [
+          {  
+            "nodeTo": "soul_flight",   
+            "nodeFrom": "metaphor_and_brain",   
+            "data": {}  
+          } 
+        ],   
+        "data": {  
+          "$color": "#416D9C",   
+          "$type": "circle",
+          "description": "Metaphorical machinery in brain enables deep interrelational modeling in cognition to afford insights and perspective changes, as in Soul Flight."      
+        }
+      },
+      {
+        "id": "soul_flight",   
+        "name": "Soul Flight",  
+        "adjacencies": [
+          {  
+            "nodeTo": "",   
+            "nodeFrom": "soul_flight",   
+            "data": {}  
+          },   
+          {  
+            "nodeTo": "",   
+            "nodeFrom": "soul_flight",   
+            "data": {}  
+          }   
+        ],   
+        "data": {  
+          "$color": "#416D9C",   
+          "$type": "circle",
+          "description": "Soul flight could be accessed via Shamans through praxis of flow state and enacting metaphors."      
+        }
+      }   
+    ];  
