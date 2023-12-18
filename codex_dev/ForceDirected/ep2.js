@@ -28,7 +28,7 @@ var Log = {
 
 function init(){
   // init data
- /*    var json = [  
+    var json = [  
       {
         "id": "flow",   
         "name": "Flow",
@@ -93,9 +93,10 @@ function init(){
           "description": "Descriptivee text of insight here."      
         }
       }      
-    ];   */
+    ];
   // end
   // init ForceDirected
+  /*
   async function fetchData() {
     try {
         const response = await fetch('./ep2.json');
@@ -115,7 +116,7 @@ function init(){
   }
   
   var json = fetchData();
-  
+  */
   var fd = new $jit.ForceDirected({
     //id of the visualization container
     injectInto: 'infovis',
