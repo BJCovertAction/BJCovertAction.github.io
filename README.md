@@ -20,7 +20,7 @@ and company. The top level page for that work is is [here]().
  
  - [Project Repo](https://github.com/BJCovertAction/BJCovertAction.github.io/tree/main)
  - [Node graph example](https://bjcovertaction.github.io/codex_dev/ForceDirected/example.html)
- - [Timeline example (on philogb)](https://philogb.github.io/jit/static/v20/Jit/Examples/Icicle/example2.html#)
+ - [Timeline example](https://bjcovertaction.github.io/codex_dev/Timeline/timeline_example.html)
  - [Root infovis toolkit courtesy of](https://bjcovertaction.github.io/codex_dev/jit-yc.js) [philogb.github.io](https://philogb.github.io/jit/)
    - [JIT Github Repo (the OG code)](https://github.com/philogb/jit)
 
