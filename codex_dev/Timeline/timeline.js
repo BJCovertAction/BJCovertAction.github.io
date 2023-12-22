@@ -91,7 +91,7 @@ function init(){
                     "name": "Metaphor",
                     "id": "metaphor",
                     "data": {
-                        "$color": "#BB00EE""
+                        "$color": "#BB00EE"
                     },
                     "children": []
                   }
