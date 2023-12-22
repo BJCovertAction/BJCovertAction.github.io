@@ -73,12 +73,29 @@ function init(){
               "children": []     
             },
             {
-              "name": "Metaphor",
-              "id": "metaphor",
+              "name": "Altered Consciousness States",
+              "id": "altered_states",
               "data": {
                   "$color": "#00FFFF"
               },
-              "children": []     
+              "children": [
+                  {
+                    "name": "Altered Consciousness Definition",
+                    "id": "altered_intro",
+                    "data": {
+                        "$color": "#BB00EE"
+                    },
+                    "children": []     
+                  },
+                  {
+                    "name": "Metaphor",
+                    "id": "metaphor",
+                    "data": {
+                        "$color": "#BB00EE""
+                    },
+                    "children": []
+                  }
+              ]     
             }
         ]
       },
@@ -108,14 +125,14 @@ function init(){
                   "name": "Literacy",
                   "id": "literacy",
                   "data": {
-                      "$color": "#7700EE"
+                      "$color": "#BB00EE"
                   }
                 },
                 {
                   "name": "Numeracy",
                   "id": "numeracy",
                   "data": {
-                      "$color": "#7700EE"
+                      "$color": "#BB00EE"
                   }
                 }
               ]     
