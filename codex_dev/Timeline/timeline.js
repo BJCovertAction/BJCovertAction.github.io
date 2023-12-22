@@ -33,11 +33,12 @@ function init(){
   controls();
   $jit.id('max-levels').style.display = 'none';
   // init data
+  // init data
   var json = {
     "name": "Episode 2",
     "id": "root",
     "data": {
-      "$color": "#0000FF"
+      "$color": "#0088FF"
     },
     "children": [
       {
@@ -52,7 +53,7 @@ function init(){
         "name": "Shamanism",
         "id": "shamanism",
         "data": {
-          "$color": "#008800"
+          "$color": "#00BB00"
         },
         "children": [
             {
@@ -85,7 +86,7 @@ function init(){
         "name": "The Axial Age",
         "id": "axial_age",
         "data": {
-          "$color": "#880000"
+          "$color": "#BB0000"
         },
         "children": [
             {
@@ -107,14 +108,14 @@ function init(){
                   "name": "Literacy",
                   "id": "literacy",
                   "data": {
-                      "$color": "#8800FF"
+                      "$color": "#7700EE"
                   }
                 },
                 {
                   "name": "Numeracy",
                   "id": "numeracy",
                   "data": {
-                      "$color": "#8800FF"
+                      "$color": "#7700EE"
                   }
                 }
               ]     
