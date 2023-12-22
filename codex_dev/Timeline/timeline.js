@@ -178,7 +178,7 @@ function init(){
     cushion: false,
     // do not show all levels at once
     constrained: true,
-    levelsToShow: 4,
+    levelsToShow: 3,
     // enable tips
     Tips: {
       enable: true,
