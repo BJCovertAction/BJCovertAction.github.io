@@ -13714,7 +13714,7 @@ $jit.Icicle = new Class({
   Implements: [ Loader, Extras, Layouts.Icicle ],
 
   layout: {
-    orientation: "h",
+    orientation: "v",
     vertical: function(){
       return this.orientation == "v";
     },
