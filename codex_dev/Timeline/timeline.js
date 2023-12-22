@@ -107,7 +107,7 @@ function init(){
                     "name": "Altered Consciousness Definition",
                     "id": "altered_intro",
                     "data": {
-                        "$color": "##00EEBB"
+                        "$color": "#00EEBB"
                     },
                     "children": []     
                   },
