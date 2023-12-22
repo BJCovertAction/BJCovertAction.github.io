@@ -33,7 +33,6 @@ function init(){
   controls();
   $jit.id('max-levels').style.display = 'none';
   // init data
-  // init data
   var json = {
     "name": "Episode 2",
     "id": "root",
@@ -70,7 +69,32 @@ function init(){
               "data": {
                   "$color": "#00FFFF"
               },
-              "children": []     
+              "children": [
+                  {
+                    "name": "Flow Definition",
+                    "id": "flow_intro",
+                    "data": {
+                        "$color": "#00EEBB"
+                    },
+                    "children": []     
+                  },
+                  {
+                    "name": "Intuition",
+                    "id": "intuition",
+                    "data": {
+                        "$color": "#00EEBB"
+                    },
+                    "children": []
+                  },
+                  {
+                    "name": "Flow Conclusion",
+                    "id": "flow_end",
+                    "data": {
+                        "$color": "#00EEBB"
+                    },
+                    "children": []
+                  },
+              ]     
             },
             {
               "name": "Altered Consciousness States",
@@ -83,7 +107,7 @@ function init(){
                     "name": "Altered Consciousness Definition",
                     "id": "altered_intro",
                     "data": {
-                        "$color": "#BB00EE"
+                        "$color": "##00EEBB"
                     },
                     "children": []     
                   },
@@ -91,7 +115,7 @@ function init(){
                     "name": "Metaphor",
                     "id": "metaphor",
                     "data": {
-                        "$color": "#BB00EE"
+                        "$color": "#00EEBB"
                     },
                     "children": []
                   }
