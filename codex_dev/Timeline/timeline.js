@@ -93,7 +93,7 @@ function init(){
                         "$color": "#00EEBB"
                     },
                     "children": []
-                  },
+                  }
               ]     
             },
             {
